@@ -31,6 +31,11 @@
 
 .hide {
   display:none;
+}
+
+.in {
   transition-timing-function: ease-in;
-  transition-delay: 60s;
+}
+.out {
+  transition-timing-function: ease-out;
 }

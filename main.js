@@ -8,5 +8,6 @@ function toggleSub() {
 }
 //loops
 for (i=0; i < mainNav.length; i++) {
-mainNav[i].addEventListener ('mousein', toggleSub);
+mainNav[i].addEventListener ('mouseover', toggleSub);
+mainNav[i].addEventListener ('mouseleave', toggleSub);
 }
